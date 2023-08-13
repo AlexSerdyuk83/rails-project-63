@@ -1,3 +1,5 @@
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/AlexSerdyuk83/rails-project-63)
+
 # HexletCode
 
 TODO: Delete this and the text below, and describe your gem
