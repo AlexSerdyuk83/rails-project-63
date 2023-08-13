@@ -13,7 +13,7 @@ module HexletCode
       options = attributes.map { |key, value| %( #{key}="#{value}") }
 
       text = yield if block_given?
-      open_tag = "<#{tag_name}#{options.join(" ")}>"
+      open_tag = "<#{tag_name}#{options.join}>"
       close_tag = "</#{tag_name}>"
 
       if SINGLE_TAGS.include?(tag_name)
